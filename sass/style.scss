@@ -1,0 +1,62 @@
+//@import "compass/css3";
+@import "compass/reset";
+//@import "normalize";
+//@import "functions";
+@import "colors";
+@import "fonts";
+@import "variables";
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+form {
+
+}
+
+input {
+	outline: none;
+
+	&::-webkit-input-placeholder {
+	   color: $placeHolderColor;
+	}
+
+	&:-moz-placeholder {
+	   color: $placeHolderColor;  
+	}
+
+	&::-moz-placeholder {
+	   color: $placeHolderColor;  
+	}
+
+	&:-ms-input-placeholder {  
+	   color: $placeHolderColor;  
+	}
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="tel"],input[type="search"],input[type="url"] {
+
+}
+
+body {
+	background-color: $defaultBgColor;
+	font-family: $defaultFont;
+	//font-size: $defaultFontSize*1px;
+	color: $defaultTextColor;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
